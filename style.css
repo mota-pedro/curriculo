@@ -49,6 +49,14 @@ body {
     border-radius: 3px;
 }
 
+.container img {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 300px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -95,10 +103,38 @@ body {
     font-size: 20px;
 }
 
-img {
-    width: 300px;
+.contacts {
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.contact-list ul {
+    margin-top: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.contact-list ul li {
+    margin-bottom: 15px;
+}
+
+.contact-list ul li a {
+    color: #4a7a96;
+}
+
+.contacts img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(107deg) brightness(105%) contrast(101%);
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
     height: auto;
     margin-right: 30px;
-    border-radius: 300px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
