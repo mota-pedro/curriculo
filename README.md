@@ -1,1 +1,2 @@
-Get to know me at: https://pedromotadev.vercel.app
+Olá! Eu sou Pedro Mota
+Conheça mais sobre mim em: https://pedromotadev.vercel.app
