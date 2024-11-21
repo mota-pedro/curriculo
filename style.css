@@ -93,6 +93,17 @@ body {
     margin-top: 10px;
 }
 
+#sobre-section {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1.5s ease, opacity 1.5s ease;
+}
+
+#sobre-section.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 .soft-skills {
     margin-left: 200px;
 }
