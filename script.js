@@ -13,7 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetSection = document.getElementById(targetId);
 
             if (targetSection) {
-                const offset = 80;
+                if (targetId == "sobre-section") {
+                    var offset = 150;
+                } else {
+                    var offset = 80;
+                }
+
                 const sectionPosition = targetSection.offsetTop - offset;
 
                 window.scrollTo({
